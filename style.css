@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #fefefe;
+}
+main{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    height: 500px;
+    box-shadow: 0px 0px 3px grey;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 14px;
+}
+.nav button{
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #ddd;
+    width: 85px;
+}
+#nxt{
+    background-color: #4F709C;
+    color: white;
+    cursor: pointer;
+}
+#pre{
+    background-color: #E5D283;
+    color: white;
+    cursor: pointer;
+}
